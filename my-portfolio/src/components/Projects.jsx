@@ -22,7 +22,7 @@ const Projects = () => {
                     width={250} 
                     height={250}
                     alt={project.title}
-                    className='mb-6 rounded'/>
+                    className='mb-6 rounded' loading='lazy'/>
                     </motion.div>
                     <motion.div
                      whileInView={{ opacity: 1, x: 0 }}

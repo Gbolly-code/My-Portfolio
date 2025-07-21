@@ -1,4 +1,4 @@
-import profilePic from '../assets/profile.png'
+import profilePic from '../assets/profile.webp'
 import { HERO_CONTENT } from '../constants'
 import { motion } from 'framer-motion'
 
@@ -26,7 +26,7 @@ const Hero = () => {
         <div className="flex flex-wrap lg:flex-row-reverse">
            <div className="w-full lg:w-1/2">
               <div className="flex justify-center lg:p-4">
-                 <motion.img src={profilePic} alt="Gbolly" className='w-32 md:w-48 lg:w-96 border 
+                 <motion.img src={profilePic} alt="Gbolly" loading='lazy' className='w-32 h-auto md:w-48 lg:w-96 border 
                  border-stone-900 rounded-3xl'
                  /*width={350}
                  height={650}*/
